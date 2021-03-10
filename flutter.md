@@ -35,7 +35,7 @@ Flutter内置众多精美的Material Design和Cupertino（iOS风格）小部件�
 大致流程如下：
 
 >1. GPU的Vsync信号同步到UI线程
-2. UI线程使用Dart来构建抽象的视图结构
-3. 视图结构在GPU线程中进行图层合成
-4. 合成后的视图数据提供给Skia图形引擎处理成GPU数据
-5. 数据再通过OpenGL或Vulkan提供给GPU进行渲染
+>2. UI线程使用Dart来构建抽象的视图结构
+>3. 视图结构在GPU线程中进行图层合成
+>4. 合成后的视图数据提供给Skia图形引擎处理成GPU数据
+>5. 数据再通过OpenGL或Vulkan提供给GPU进行渲染
