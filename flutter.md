@@ -1,6 +1,7 @@
 # Flutter笔记
 ## 前言
 >Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。 Flutter可以与现有的代码一起工作。在全世界，Flutter正在被越来越多的开发者和组织使用，并且Flutter是完全免费、开源的。
+
 ![image](https://user-images.githubusercontent.com/52229845/110598713-06ee1380-81bd-11eb-8931-a0de4215541d.png)
 ## 面世
 Flutter是Google在2015年推出的移动UI框架，可快速在iOS和Android上构建高质量的原生用户界面。
