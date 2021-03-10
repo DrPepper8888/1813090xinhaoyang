@@ -18,7 +18,7 @@ Flutter内置众多精美的Material Design和Cupertino（iOS风格）小部件�
 
 ## 框架
 
-如下图所示为Flutter系统架构图，可以看出Flutter框架分为三层：Framework层、Engine层和Embedder层。
+Flutter框架分为三层：Framework层、Engine层和Embedder层。
 
 ### Framework层：
 由Dart来实现，包含众多安卓Material风格和iOS Cupertino风格的Widgets小部件，还有渲染、动画、绘图和手势等。Framework包含日常开发所需要的大量API，普通应用开发熟悉这些API的使用基本OK了，不过很多特殊场景的控件需要自己根据实际情况进行自定义。Framework层的源码地址：https://github.com/flutter/flutter/tree/master/packages/flutter/lib
@@ -28,6 +28,8 @@ Flutter内置众多精美的Material Design和Cupertino（iOS风格）小部件�
 
 ### Embedder层：
 主要处理一些平台相关的操作，如渲染Surface设置、本地插件、打包、线程设置等。
+### 
+如下图所示为Flutter系统架构图：
 ![image](https://user-images.githubusercontent.com/52229845/110599499-e4a8c580-81bd-11eb-8811-2f6bfe7f95ef.png)
 ## 原理
 无论是iOS还是安卓都是提供一个平台的View给Flutter层，页面内容渲染交由Flutter层自身来完成，所以其相对React Native等框架性能更好。Flutter中图形渲染流程：
@@ -40,4 +42,5 @@ Flutter内置众多精美的Material Design和Cupertino（iOS风格）小部件�
 >4. 合成后的视图数据提供给Skia图形引擎处理成GPU数据
 >5. 数据再通过OpenGL或Vulkan提供给GPU进行渲染
 
-## 
+## flutter使用教程
+https://flutter.cn/docs/cookbook
